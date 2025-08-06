@@ -1,0 +1,39 @@
+:root {
+    --text: black;
+    --secondarytext: rgb(182, 182, 182);
+    --bg: rgb(233, 233, 233);
+    --cards: rgb(197, 197, 197);
+    --cardtex: #333333;
+    --blurbg: rgba(255, 255, 255, 0.411);
+    --buttonbor: #333333;
+    --cardsecondary: #6d6d6d;
+    --nav: rgb(197, 197, 197);
+}
+
+@media (prefers-color-scheme: dark) { 
+    :root {
+    --text: white;
+    --secondarytext: rgb(182, 182, 182);
+    --bg: rgb(56, 56, 56);
+    --cards: rgb(41, 41, 41);
+    --cardtex: white;
+    --blurbg: rgba(0, 0, 0, 0.411);
+    --buttonbor: white;
+    --cardsecondary: #ffffff;
+    --nav: rgb(41, 41, 41);
+    }
+}
+
+@media (prefers-color-scheme: light) { 
+    :root {
+        --text: black;
+        --secondarytext: rgb(182, 182, 182);
+        --bg: rgb(233, 233, 233);
+        --cards: rgb(197, 197, 197);
+        --cardtex: #333333;
+        --cardsecondary: #6d6d6d;
+        --blurbg: rgba(255, 255, 255, 0.411);
+        --buttonbor: #333333;
+        --nav: rgb(197, 197, 197);
+    }
+}
