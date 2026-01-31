@@ -298,7 +298,7 @@ body {
     z-index: 1001;
 }
 
-.gallery-close:hover {
+.gallery-close:hover, .gallery-nav:hover {
     color: #888888;
 }
 
@@ -328,10 +328,6 @@ body {
     line-height: 1;
     transition: color 0.3s;
     user-select: none;
-}
-
-.gallery-nav:hover {
-    color: #888888;
 }
 
 .gallery-prev {
