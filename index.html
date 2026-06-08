@@ -12,7 +12,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="https://kit.fontawesome.com/e12765ec05.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/gallery.js"></script>
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="JOSEPH MADRIL" />
@@ -29,130 +28,35 @@
 </head>
 
 <body>
-    <section class="hero">
-        <div class="hero-content">
-            <img class="hero-title" src="/assets/images/jmadril_logo.webp" alt="Joseph Madril Logo">
-        </div>
-    </section>
-    <section class="about">
-        <div class="container">
-            <h2 class="title">About</h2>
-            <div class="about-content">
-                <div class="about-photo">
-                    <img src="/assets/images/joseph_profile.jpg" alt="Joseph Madril">
-                </div>
-                <div class="sub-text">
-                    <p>Hi, Joseph Madril here! I design things for fun here on the web and dabble in some photography.
-                        During high school, I became interested in graphic design and basic programming. Although I
-                        planned on working in the tech field, I ultimately enrolled in college for a degree in Secondary
-                        Education teaching English. Only taking a semester of courses, I decided to take a few years
-                        away from school and re-evaluate my career path.</p>
-                    <p>While my career today is away from programming and design, from time-to-time, I still create
-                        things for friends or just for fun as a hobby. Other hobbies include photography, music, reading
-                        and growing plants.</p>
-                    <a href="#contact" class="btn">Contact</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="portfolio">
-        <div class="container">
-            <h2 class="title">Featured Portfolio</h2>
-            <div class="grid">
-                <a href="https://team.stibarc.com/" class="project-card-link">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="/assets/images/stibarc_team_banner.webp" alt="STiBaRC Team Redesign">
-                            <div class="project-overlay">
-                                <span class="learn-more">View</span>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>STiBaRC Team Redesign</h3>
-                            <p class="project-description">Visual overhaul of the STiBaRC Team website based on designs
-                                from the social media service.</p>
-                            <p class="project-category">Web Design</p>
-                        </div>
-                    </div>
+    <main>
+        <section class="main-hero">
+            <img src="/assets/images/joseph_profile.jpg" alt="Joseph Madril" class="hero-image">
+            <img src="/assets/images/jmadril_logo.webp" alt="Joseph Madril" class="logo">
+        </section>
+        <section class="contact">
+            <div class="container grid">
+                <a href="mailto:contact@josephmadril.com" class="buttonso"><i class="far fa-envelope socialicon"></i>
+                    <span class="buttonsotext">Email</span>
                 </a>
-                <a href="https://github.com/STiBaRC/stibarc_branding" target="_blank" class="project-card-link">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="/assets/images/stibarc_brand_banner.webp" alt="STiBaRC Branding">
-                            <div class="project-overlay">
-                                <span class="learn-more">View</span>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>STiBaRC Branding</h3>
-                            <p class="project-description">Various branding designs for STiBaRC and related projects.
-                            </p>
-                            <p class="project-category">Graphic Design</p>
-                        </div>
-                    </div>
+                <a href="https://x.com/jmadril3" class="buttonso" target="_blank"><i class="fab fa-x-twitter socialicon"></i>
+                    <span class="buttonsotext">X (Twitter)</span>
                 </a>
-                <div id="openGallery" class="project-card-link">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="/assets/images/gallery_banner.webp" alt="Photo Gallery">
-                            <div class="project-overlay">
-                                <span class="learn-more">View</span>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>Photo Gallery</h3>
-                            <p class="project-description">A collection of photos taken by yours truly.</p>
-                            <p class="project-category">Photography</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="galleryModal" class="gallery-modal">
-            <button class="gallery-close">&times;</button>
-            <div class="gallery-content">
-                <button class="gallery-nav gallery-prev">‹</button>
-                <img id="galleryImage" src="" alt="Gallery">
-                <button class="gallery-nav gallery-next">›</button>
-            </div>
-            <div class="gallery-counter"></div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="container-center">
-            <h2 class="title">Get in Touch</h2>
-            <p class="contact-description">Feel free to send an email or connect with me on social media!</p>
-            <div class="social-links">
-                <a href="mailto:contact@josephmadril.com" class="social-link">
-                    <i class="far fa-envelope"></i>
-                    <span>Email</span>
+                <a href="https://www.linkedin.com/in/joseph-madril-iii-320953176/" class="buttonso" target="_blank"><i class="fab fa-linkedin socialicon"></i>
+                    <span class="buttonsotext">LinkedIn</span>
                 </a>
-                <a href="https://x.com/jmadril3" target="_blank" class="social-link">
-                    <i class="fab fa-x-twitter"></i>
-                    <span>X (Twitter)</span>
+                <a href="https://github.com/versocre" class="buttonso" target="_blank"><i class="fab fa-github socialicon"></i>
+                    <span class="buttonsotext">GitHub</span>
                 </a>
-                <a href="https://www.linkedin.com/in/joseph-madril-iii-320953176/" target="_blank" class="social-link">
-                    <i class="fab fa-linkedin"></i>
-                    <span>LinkedIn</span>
+                <a href="https://dribbble.com/alluthus" class="buttonso" target="_blank"><i class="fab fa-dribbble socialicon"></i>
+                    <span class="buttonsotext">Dribbble</span>
                 </a>
-                <a href="https://github.com/versocre" target="_blank" class="social-link">
-                    <i class="fab fa-github"></i>
-                    <span>GitHub</span>
-                </a>
-                <a href="https://dribbble.com/alluthus" target="_blank" class="social-link">
-                    <i class="fab fa-dribbble"></i>
-                    <span>Dribbble</span>
-                </a>
-                <a href="https://bsky.app/profile/josephmadril.com" target="_blank" class="social-link">
-                    <i class="fab fa-bluesky"></i>
-                    <span>Bluesky</span>
+                <a href="https://bsky.app/profile/josephmadril.com" class="buttonso" target="_blank"><i class="fab fa-bluesky socialicon"></i>
+                    <span class="buttonsotext">Bluesky</span>
                 </a>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer class="footer">
-        <div class="container-center">
-            <p>&copy; 2026 Joseph Madril</p>
-        </div>
+        <p>&copy; 2026 Joseph Madril</p>
     </footer>
 </body>
